@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Image Component</h1>
-        <Image src="https://res.cloudinary.com/dgqyhvrdo/image/upload/w_1000,h_750,c_fill/v1667999891/sunshine.webp" alt="Girl in Sunshine" width={1000} height={750} />
+        <Image src="/sunshine.jpg" alt="Girl in Sunshine" width={1000} height={750} />
       </main>
     </div>
   )
